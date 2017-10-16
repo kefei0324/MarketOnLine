@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:background="@color/transparent"
+             android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tv_watermark_left_up"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/watermark_margin"
+            android:layout_marginTop="@dimen/watermark_margin"
+            android:textColor="@color/watermark_grey"
+            android:text="@string/app_name"
+            android:textSize="@dimen/watermark_size"
+            android:rotation="-30"
+            android:layout_gravity="left|top"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_watermark_right_up"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="@dimen/watermark_margin"
+            android:layout_marginTop="@dimen/watermark_margin"
+            android:textColor="@color/watermark_grey"
+            android:text="@string/app_name"
+            android:textSize="@dimen/watermark_size"
+            android:rotation="-30"
+            android:layout_gravity="right|top"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_watermark_centre"
+            android:layout_width="wrap_content"
+            android:textColor="@color/watermark_grey"
+            android:text="@string/app_name"
+            android:textSize="@dimen/watermark_size"
+            android:rotation="-30"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_watermark_left_down"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/watermark_margin"
+            android:layout_marginBottom="@dimen/watermark_margin"
+            android:textColor="@color/watermark_grey"
+            android:text="@string/app_name"
+            android:textSize="@dimen/watermark_size"
+            android:rotation="-30"
+            android:layout_gravity="left|bottom"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tv_watermark_right_down"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="@dimen/watermark_margin"
+            android:layout_marginBottom="@dimen/watermark_margin"
+            android:textColor="@color/watermark_grey"
+            android:text="@string/app_name"
+            android:textSize="@dimen/watermark_size"
+            android:rotation="-30"
+            android:layout_gravity="right|bottom"
+            android:layout_height="wrap_content"/>
+
+
+</FrameLayout>

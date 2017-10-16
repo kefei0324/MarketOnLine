@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/menu_home">
+    <item
+            android:id="@+id/home_picture"
+            android:icon="@drawable/picture_slt"
+            app:showAsAction="ifRoom"
+            android:title="@string/picture"/>
+    <item
+            android:id="@+id/home_camera"
+            android:icon="@drawable/camera_slt"
+            app:showAsAction="ifRoom"
+            android:title="@string/camera"/>
+    <!--<item-->
+            <!--android:id="@+id/home_setting"-->
+            <!--app:showAsAction="never"-->
+            <!--android:title="@string/setting"/>-->
+    </group>
+</menu>

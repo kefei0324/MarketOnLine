@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MarketOnLine</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="chat">聊天</string>
+    <string name="camera">拍照</string>
+    <string name="picture">照片</string>
+    <string name="setting">设置</string>
+</resources>

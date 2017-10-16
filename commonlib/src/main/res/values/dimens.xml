@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <dimen name="base_titlebar_height">48dip</dimen>
+    <dimen name="no_data_size">30sp</dimen>
+    <dimen name="watermark_margin">28dip</dimen>
+    <dimen name="watermark_size">18sp</dimen>
+    <dimen name="default_margin">6dip</dimen>
+    <dimen name="default_padding">6dip</dimen>
+
+</resources>
