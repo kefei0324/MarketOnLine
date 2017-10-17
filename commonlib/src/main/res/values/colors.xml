@@ -7,7 +7,7 @@
 
 
 
-    <color name="watermark_grey">#66CCCCCC</color>
+    <color name="watermark_grey">#CCCCCC</color>
     <color name="transparent">#00000000</color>
     <color name="red">#ffcc0000</color>
     <color name="purple">#ffaa66cc</color>
